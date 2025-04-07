@@ -56,14 +56,14 @@ All metrics are tested for **low multicollinearity** (via VIF) and **cointegrati
 
 ## 📌 Key Findings
 
-### Dominant Regimes (Return-Based)
+### Dominant Regimes (Price-Based)
 
 | Regime         | Interpretation                                                            | Stability |
 |----------------|----------------------------------------------------------------------------|-----------|
-| `0.0_1.0_0.0`  | Calm volatility, moderate entropy, no trend memory                        | 0.66      |
-| `0.0_1.0_1.0`  | Most stable — calm vol + moderate entropy + mild persistence              | 0.72      |
-| `0.0_1.0_2.0`  | Calm vol, chaotic memory of past shocks                                   | 0.68      |
-| `2.0_1.0_0.0`  | High volatility clustering with no historical memory                      | 0.64      |
+| `0.0_1.0_0.0`  | Most stable, calm volatility, moderate entropy, no trend memory           | 0.80      |
+| `0.0_1.0_1.0`  | Calm volatility, moderate entropy, mild persistence                       | 0.76      |
+| `0.0_1.0_2.0`  | Calm volaility, chaotic memory of past shocks                             | 0.77      |
+| `2.0_1.0_0.0`  | High volatility clustering with no historical memory                      | 0.65      |
 
 Most regimes show **GARCH = 0**, indicating that **volatility clustering is typically low** — shocks are short-lived and don't persist.
 
