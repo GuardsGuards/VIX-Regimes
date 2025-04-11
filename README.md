@@ -1,20 +1,20 @@
-# 📊 VIX Regimes: Volatility Classification Using GARCH, Entropy, and Persistence
+# VIX Regimes: Volatility Classification Using GARCH, Entropy, and Persistence
 
 ## Overview
 
 This project classifies market volatility into distinct **VIX regimes** using a combination of:
 
-- 📈 **GARCH** — Volatility Clustering  
-- 🔀 **Permutation Entropy** — Market Chaos  
-- 📐 **Hurst Exponent** — Trend Persistence  
-- 🧠 **K-Means Clustering**  
-- 🔁 **Markov Chain Transitions**
+- **GARCH** — Volatility Clustering  
+- **Permutation Entropy** — Market Chaos  
+- **Hurst Exponent** — Trend Persistence  
+- **K-Means Clustering**  
+- **Markov Chain Transitions**
 
 These indicators are combined into a composite regime index that can be used for market interpretation, forecasting, and strategic portfolio management.
 
 ---
 
-## 🧠 Abstract
+## Abstract
 
 On **April 4, 2025**, the **VIX spiked to $45**, a nearly **200% increase** within just over a week — coinciding with a $5 trillion market wipeout. As a proxy for expected S&P 500 volatility, the VIX captures broad investor sentiment and fear.
 
@@ -28,7 +28,7 @@ Each metric is clustered into discrete bins (0, 1, 2), then concatenated into **
 
 ---
 
-## 📐 Indicators
+## Indicators
 
 | Metric               | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
@@ -40,9 +40,9 @@ All metrics are tested for **low multicollinearity** (via VIF) and **cointegrati
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
-### 📊 Clustering
+### Clustering
 
 - **K-Means** is used to bin each indicator into 3 states: low (0), moderate (1), and high (2)
 - Composite regimes are formed from the combination of binned indicators
