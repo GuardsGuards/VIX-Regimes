@@ -47,14 +47,14 @@ All metrics are tested for **low multicollinearity** (via VIF) and **cointegrati
 - **K-Means** is used to bin each indicator into 3 states: low (0), moderate (1), and high (2)
 - Composite regimes are formed from the combination of binned indicators
 
-### 🔁 Regime Transition Modeling
+### Regime Transition Modeling
 
 - **Markov Chains** track regime persistence and switching probabilities
 - Stability scores are computed based on one-day regime retention
 
 ---
 
-## 📌 Key Findings
+## Key Findings
 
 ### Dominant Regimes (Price-Based)
 
@@ -69,7 +69,7 @@ Most regimes show **GARCH = 0**, indicating that **volatility clustering is typi
 
 ---
 
-## 📈 Market Implications
+## Market Implications
 
 ### For Traders & Portfolio Managers
 
